@@ -909,20 +909,30 @@ a:hover {
   }
 }
 
-/* Ocultar a rolagem horizontal */
+.space-arround {
+  justify-content: space-around !important;
+}
+
+.row {
+  overflow-y: hidden;
+  padding: 5px;
+}
+
+/* //Tentando esconder o scroll lateral
 body,
 .container,
 .feature-row {
   overflow-x: hidden;
 }
 
-/* Ajuste a altura dos elementos para evitar a rolagem vertical */
+
+
 body {
-  width: 100vw; /* Define a altura da página igual à altura da viewport */
+  width: 100vw; 
 }
 
 .feature-row {
-  /* Adicionando essa configuração para evitar qualquer conteúdo ultrapassando os limites */
-  overflow-y: auto; /* Permitir rolagem vertical, se necessário, mas limitar à altura da viewport */
-  max-width: 100vw; /* Limitar a altura da linha de recursos para a altura da viewport */
-}
+  
+  overflow-y: auto; 
+  max-height: 100vw; 
+} */
