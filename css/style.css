@@ -803,7 +803,7 @@ a:hover {
 }
 /* Direção de Narrativa Especificas */
 .direcao-narrativa {
-  background-image: url("/img/Direcao_Narrativa/Direcao-narrativa-Goldman_ARIELA_01-05.jpg");
+  background-image: url("img/Direcao_Narrativa/Direcao-narrativa-Goldman_ARIELA_01-05.jpg");
   background-repeat: repeat-y; /* Makes the image repeat vertically */
   background-size: 100vw; /* Makes the image fit the width of the viewport */
 
